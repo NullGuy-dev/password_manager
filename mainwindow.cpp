@@ -56,7 +56,6 @@ MainWindow::MainWindow(QWidget *parent)
     configLink->setFont(optionedFont);
     configLink->setPlaceholderText(configLinkText);
     configLink->setToolTip(configLinkText);
-    configLink->setText("D:/pswd.txt");
     configOptions->addWidget(configLink);
     loadConfig = new QPushButton(this);
     loadConfig->setMinimumSize(QSize(50,35));
